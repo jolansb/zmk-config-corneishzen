@@ -128,7 +128,7 @@
                         label = "NAVI";
                         bindings = <
    &none      &none     &none       &none       &none                   &kp PG_UP   &none       &kp UP      &none       &kp HOME
-   &kp LGUI   &kp LALT  &kp LCTRL   &kp LSHIFT  &none                   &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp_END
+   &kp LGUI   &kp LALT  &kp LCTRL   &kp LSHIFT  &none                   &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp END
    &none      &none     &none       &none       &none                   &none       &none       &caps_word  &none       &kp INS
                          &trans     &trans      &trans                  &trans      &trans      &trans
                         >;
