@@ -64,7 +64,7 @@
             label = "TAP_DANCE_5";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp FR_RABK>, <&kp FR_LABC>;
+            bindings = <&kp FR_RABK>, <&kp FR_LABK>;
         };
         td6: tap_dance_6 {
             compatible = "zmk,behavior-tap-dance";
