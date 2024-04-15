@@ -138,7 +138,7 @@
                         label = "SYMBOL";
                         bindings = <
    &kp FR_AMPR  &kp FR_HASH &td3    &kp FR_CIRC &kp FR_EURO             &none       &none       &none       &none       &none
-   &td10        &td5        &td2    &td8        &kp FR_DLR              &none       &kp LSHIFT  &kp LCTRL   &kp LALT   &GUI
+   &td10        &td5        &td2    &td8        &kp FR_DLR              &none       &kp LSHIFT  &kp LCTRL   &kp LALT    &kp LGUI
    &kp FR_AT    &kp FR_PIPE &td4    &none       &kp FR_PND              &none       &none       &none       &none       &none
                                 &trans          &trans          &trans                  &trans      &trans      &trans
                         >;
