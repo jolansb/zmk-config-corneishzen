@@ -101,7 +101,7 @@
             tapping-term-ms = <200>;
             bindings = <&kp FR_SLSH>, <&kp FR_BSLS>;
         };
-    }
+    };
 };
 
 / {
