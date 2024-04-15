@@ -101,30 +101,30 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-#define FR_1    S(FR_AMPR) // 1
-#define FR_2    S(FR_EACU) // 2
-#define FR_3    S(FR_DQUO) // 3
-#define FR_4    S(FR_QUOT) // 4
-#define FR_5    S(FR_LPRN) // 5
-#define FR_6    S(FR_MINS) // 6
-#define FR_7    S(FR_EGRV) // 7
-#define FR_8    S(FR_UNDS) // 8
-#define FR_9    S(FR_CCED) // 9
-#define FR_0    S(FR_AGRV) // 0
-#define FR_DEG  S(FR_RPRN) // °
-#define FR_PLUS S(FR_EQL)  // +   
+#define FR_1    RS(FR_AMPR) // 1
+#define FR_2    RS(FR_EACU) // 2
+#define FR_3    RS(FR_DQUO) // 3
+#define FR_4    RS(FR_QUOT) // 4
+#define FR_5    RS(FR_LPRN) // 5
+#define FR_6    RS(FR_MINS) // 6
+#define FR_7    RS(FR_EGRV) // 7
+#define FR_8    RS(FR_UNDS) // 8
+#define FR_9    RS(FR_CCED) // 9
+#define FR_0    RS(FR_AGRV) // 0
+#define FR_DEG  RS(FR_RPRN) // °
+#define FR_PLUS RS(FR_EQL)  // +   
 // Row 2
-#define FR_DIAE S(FR_CIRC) // ¨ (dead)
-#define FR_PND  S(FR_DLR)  // £
+#define FR_DIAE RS(FR_CIRC) // ¨ (dead)
+#define FR_PND  RS(FR_DLR)  // £
 // Row 3
-#define FR_PERC S(FR_UGRV) // %
-#define FR_MICR S(FR_ASTR) // µ
+#define FR_PERC RS(FR_UGRV) // %
+#define FR_MICR RS(FR_ASTR) // µ
 // Row 4
-#define FR_RABK S(FR_LABK) // >
-#define FR_QUES S(FR_COMM) // ?
-#define FR_DOT  S(FR_SCLN) // .
-#define FR_SLSH S(FR_COLN) // /
-#define FR_SECT S(FR_EXLM) // §
+#define FR_RABK RS(FR_LABK) // >
+#define FR_QUES RS(FR_COMM) // ?
+#define FR_DOT  RS(FR_SCLN) // .
+#define FR_SLSH RS(FR_COLN) // /
+#define FR_SECT RS(FR_EXLM) // §
 
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
