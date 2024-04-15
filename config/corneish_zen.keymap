@@ -118,7 +118,7 @@
                         label = "AZERTY";
                         bindings = <
    &kp FR_A         &kp FR_Z        &kp FR_E       &kp FR_R             &kp FR_T   &kp FR_Y    &kp FR_U        &kp FR_I        &kp FR_O      &kp FR_P
-   &hm LGUI FR_Q    &hm LALT FR_S   &hm LCTRL FR_D &hm LSHIFT FR_F       &kp FR_G   &kp H       &hm LSHIFT FR_J  &hm LCTRL FR_K  &hm LALT FR_L &hm LGUI FR_M
+   &hm LGUI FR_Q    &hm LALT FR_S   &hm LCTRL FR_D &hm LSHIFT FR_F      &kp FR_G   &kp H       &hm LSHIFT FR_J &hm LCTRL FR_K  &hm LALT FR_L &hm LGUI FR_M
    &kp FR_W         &kp FR_X        &kp FR_C       &kp FR_V             &kp FR_B   &kp FR_N    &kp FR_COMM     &kp FR_SCLN     &kp FR_COLN   &kp FR_EXLM
                     &lt _MEDIA ESC  &lt _NAVI TAB  &lt _NUMBER SPC      &lt _ACCENT BSPC  &lt _SYMBOL RET  &lt _ADJUST DEL
                         >;
@@ -128,7 +128,7 @@
                         label = "NAVI";
                         bindings = <
    &none      &none     &none       &none       &none                   &kp PG_UP   &none       &kp UP      &none       &kp HOME
-   &kp LGUI   &kp LALT  &kp LCTRL   &kp LSHIFT   &none                   &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp_END
+   &kp LGUI   &kp LALT  &kp LCTRL   &kp LSHIFT  &none                   &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp_END
    &none      &none     &none       &none       &none                   &none       &none       &caps_word  &none       &kp INS
                          &trans     &trans      &trans                  &trans      &trans      &trans
                         >;
@@ -138,7 +138,7 @@
                         label = "SYMBOL";
                         bindings = <
    &kp FR_AMPR  &kp FR_HASH &td3    &kp FR_CIRC &kp FR_EURO             &none       &none       &none       &none       &none
-   &kp td10     &td5        &td2    &td8        &kp FR_DLR              &none       &kp LSHIFT   &kp LCTRL   &kp LALT   &GUI
+   &td10        &td5        &td2    &td8        &kp FR_DLR              &none       &kp LSHIFT  &kp LCTRL   &kp LALT   &GUI
    &kp FR_AT    &kp FR_PIPE &td4    &none       &kp FR_PND              &none       &none       &none       &none       &none
                                 &trans          &trans          &trans                  &trans      &trans      &trans
                         >;
@@ -147,9 +147,9 @@
                 number_layer {
                         label = "NUMBER";
                         bindings = <
-   &none    &none       &none       &none     &none                         &kp FR_PLUS     &kp FR_1  &kp FR_2  &kp FR_3  &kp STAR   
-   &kp LGUI &kp LALT    &kp LCTRL   &kp LSHIFT &none                         &kp td7         &kp FR_4  &kp FR_5  &kp FR_6  &kp FR_SLSH
-   &none    &none       &none       &none     &none                         &kp FR_EQL      &kp FR_7  &kp FR_8  &kp FR_9  &kp FR_PERC   
+   &none    &none       &none       &none      &none                         &kp FR_PLUS     &kp FR_1  &kp FR_2  &kp FR_3  &kp STAR   
+   &kp LGUI &kp LALT    &kp LCTRL   &kp LSHIFT &none                        &td7            &kp FR_4  &kp FR_5  &kp FR_6  &kp FR_SLSH
+   &none    &none       &none       &none      &none                         &kp FR_EQL      &kp FR_7  &kp FR_8  &kp FR_9  &kp FR_PERC   
              &trans  &trans  &trans                                         &trans          &trans    &td9
                         >;
                 };
@@ -168,7 +168,7 @@
                         label = "MEDIA";
                         bindings = <
    &none      &none     &none       &none       &none                       &kp K_REDO  &kp K_PASTE     &kp C_BRI_UP    &kp K_VOL_UP    &none
-   &kp LGUI   &kp LALT  &kp LCTRL   &kp LSHIFT   &none                       &kp K_UNDO  &kp K_COPY      &kp C_BRI_DN    &kp K_VOL_DN    &kp K_MUTE
+   &kp LGUI   &kp LALT  &kp LCTRL   &kp LSHIFT  &none                       &kp K_UNDO  &kp K_COPY      &kp C_BRI_DN    &kp K_VOL_DN    &kp K_MUTE
    &none      &none     &none       &none       &none                       &none       &kp K_CUT       &none           &none           &none
                         &trans      &trans      &trans                      &trans      &trans          &kp C_AC_CLOSE
                         >;
@@ -178,7 +178,7 @@
                         label = "ADJUST";
                         bindings = <
    &kp F10    &kp F1       &kp F2      &kp F3      &kp PSCRN        &bt BT_CLR  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 0  
-   &kp F11    &kp F4       &kp F5      &kp F6      &kp SLCK         &none       &kp LSHIFT     &kp LCTRL     &kp LALT      &kp LGUI
+   &kp F11    &kp F4       &kp F5      &kp F6      &kp SLCK         &none       &kp LSHIFT    &kp LCTRL     &kp LALT      &kp LGUI
    &kp F12    &kp F7       &kp F8      &kp F9      &kp PAUSE_BREAK  &bootloader &none         &none         &none         &none
                            &trans      &trans      &trans           &trans      &trans        &trans
                         >;
