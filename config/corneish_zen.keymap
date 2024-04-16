@@ -120,7 +120,7 @@
    &kp FR_A         &kp FR_Z        &kp FR_E       &kp FR_R             &kp FR_T   &kp FR_Y    &kp FR_U        &kp FR_I        &kp FR_O      &kp FR_P
    &hm LGUI FR_Q    &hm LALT FR_S   &hm LCTRL FR_D &hm LSHIFT FR_F      &kp FR_G   &kp H       &hm LSHIFT FR_J &hm LCTRL FR_K  &hm LALT FR_L &hm LGUI FR_M
    &kp FR_W         &kp FR_X        &kp FR_C       &kp FR_V             &kp FR_B   &kp FR_N    &kp FR_COMM     &kp FR_SCLN     &kp FR_COLN   &kp FR_EXLM
-                    &lt _MEDIA ESC  &lt _NAVI TAB  &lt _NUMBER SPC      &lt _ACCENT BSPC  &lt _SYMBOL RET  &lt _ADJUST DEL
+                    &lt _MEDIA ESC  &lt _NAVI SPC  &lt _NUMBER TAB      &lt _ACCENT RET  &lt _SYMBOL BSPC  &lt _ADJUST DEL
                         >;
                 };
 
