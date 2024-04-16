@@ -147,7 +147,7 @@
                 number_layer {
                         label = "NUMBER";
                         bindings = <
-   &none    &none       &none       &none      &none                         &kp FR_PLUS     &kp FR_1  &kp FR_2  &kp FR_3  &kp STAR   
+   &none    &none       &none       &none      &none                         &kp FR_PLUS     &kp FR_1  &kp FR_2  &kp FR_3  &kp FR_ASTR   
    &kp LGUI &kp LALT    &kp LCTRL   &kp LSHIFT &none                        &td7            &kp FR_4  &kp FR_5  &kp FR_6  &kp FR_SLSH
    &none    &none       &none       &none      &none                         &kp FR_EQL      &kp FR_7  &kp FR_8  &kp FR_9  &kp FR_PERC   
              &trans  &trans  &trans                                         &trans          &trans    &td9
